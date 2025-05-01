@@ -11,3 +11,38 @@
                 0 4px 6px -4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+
+.card-modal {
+    width: 752px;
+    max-height: 90vh;        /* Limit height to 90% of the viewport */
+    overflow-y: auto;  
+    background: white;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+                0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.modal-card-details p{
+    font-weight: 600;
+    color:#403F3F;
+    margin-bottom: 16px;
+}
+
+.modal-card-span span{
+    font-weight: 400;
+    color: #706F6F;
+}
+
+#modal-card {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: rgba(16,15,15,0.60);
+}
