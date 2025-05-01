@@ -84,7 +84,7 @@ document.getElementById('show-all-btn').addEventListener('click', function(){
 // Display Single Phone Details in Modal
 const displayPhoneDetailsInModal =  (phone) => {
     document.getElementById('modal-card').innerHTML = `
-    <div class="card-modal">
+    <div class="card-modal p-[20px] md:p-[40px]">
         <figure class="pt-[40px] pb-[20px] flex items-center justify-center bg-[rgba(13,110,253,0.05)] mb-[40px]">
             <img src="${phone.image}" alt="${phone.slug}" class="rounded-xl h-[380px] w-[268px]" />
         </figure>

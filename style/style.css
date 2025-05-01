@@ -14,11 +14,10 @@
 
 .card-modal {
     width: 752px;
-    max-height: 90vh;        /* Limit height to 90% of the viewport */
+    max-height: 90vh;
     overflow-y: auto;  
     background: white;
     margin: auto;
-    padding: 40px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
                 0 4px 6px -4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
